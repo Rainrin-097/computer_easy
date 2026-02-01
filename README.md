@@ -9,5 +9,5 @@
 ## 🚀 使用方法
 
 ```bash
-gcc main.c -o calculator
-./calculator
+gcc main.c -o computer_easy
+./computer_easy
