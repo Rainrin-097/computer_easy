@@ -1,13 +1,17 @@
-# C语言简易计算器
+# C语言增强版计算器
 
-## 💡 功能
+一个功能丰富的命令行计算器，支持多种运算和高级功能。
 
-- 支持四则运算：`+` `-` `*` `/`
+## 💡 功能特性
+
+- 基础运算：`+` `-` `*` `/` `%`（模运算）
+- 科学函数：`sqrt`（平方根）`abs`（绝对值）`sin`（正弦）`cos`（余弦）
+- 记忆功能：`m+` `m-` `mr` `mc`
+- 计算历史：`h`
 - 连续计算模式
-- 错误处理（除零、格式错误）
 
 ## 🚀 使用方法
 
 ```bash
-gcc main.c -o computer_easy
-./computer_easy
+gcc main.c -o enhanced_calculator -lm    # 注意：-lm 链接数学库
+./enhanced_calculator
